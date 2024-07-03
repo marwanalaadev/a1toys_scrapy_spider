@@ -59,7 +59,6 @@ Set up a Discord webhook URL to receive notifications about price drops. Replace
 
 Project Structure
 a1toys_scrapy_spider/
-│
 ├── a1toys/
 │   ├── __init__.py
 │   ├── items.py
@@ -69,12 +68,11 @@ a1toys_scrapy_spider/
 │   └── spiders/
 │       ├── __init__.py
 │       └── a1toys_play.py
-│
 ├── scrapy.log
 ├── requirements.txt
-└── README.md
+├── README.md
 └── .env
-│
+
 Pipelines
 The pipeline handles storing scraped items in a MongoDB database and sending notifications to a Discord channel when a price drop is detected.
 
