@@ -47,7 +47,7 @@ To run the spider, use the following command:
 
 ```sh
 scrapy crawl a1toys_play
-
+```
 This will start the spider and begin scraping data from the A1Toys website. The scraped data will be stored in the MongoDB database specified in the .env file.
 
 ## Configuration
