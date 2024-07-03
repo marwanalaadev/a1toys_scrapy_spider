@@ -1,0 +1,4 @@
+scrapy
+pymongo
+requests
+python-dotenv
