@@ -6,7 +6,6 @@ This project is a Scrapy spider for scraping product data from the A1Toys websit
 - [Installation](#installation)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [Project Structure](#project-structure)
 - [Pipeline](#pipeline)
 - [License](#license)
 - [Contact](#contact)
@@ -56,22 +55,6 @@ Ensure that you have MongoDB installed and running on your machine. The default 
 
 Discord Webhook
 Set up a Discord webhook URL to receive notifications about price drops. Replace YOUR_DISCORD_WEBHOOK_URL in the .env file with your actual webhook URL.
-
-Project Structure
-a1toys_scrapy_spider/
-├── a1toys/
-│   ├── __init__.py
-│   ├── items.py
-│   ├── middlewares.py
-│   ├── pipelines.py
-│   ├── settings.py
-│   └── spiders/
-│       ├── __init__.py
-│       └── a1toys_play.py
-├── scrapy.log
-├── requirements.txt
-├── README.md
-└── .env
 
 Pipelines
 The pipeline handles storing scraped items in a MongoDB database and sending notifications to a Discord channel when a price drop is detected.
