@@ -85,7 +85,8 @@ process_item(self, item, spider): Processes each scraped item. If the product al
 send_discord_notification(self, sale_record): Sends a notification to the specified Discord channel about the price drop.
 
 
-License
+
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
