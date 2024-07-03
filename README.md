@@ -74,7 +74,7 @@ a1toys_scrapy_spider/
 ├── requirements.txt
 └── README.md
 └── .env
-
+│
 Pipelines
 The pipeline handles storing scraped items in a MongoDB database and sending notifications to a Discord channel when a price drop is detected.
 
