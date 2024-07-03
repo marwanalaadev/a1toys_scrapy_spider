@@ -84,6 +84,7 @@ close_spider(self, spider): Closes the MongoDB connection when the spider stops.
 process_item(self, item, spider): Processes each scraped item. If the product already exists in the database and the price has changed, it updates the price and records the price drop. Otherwise, it inserts the new product.
 send_discord_notification(self, sale_record): Sends a notification to the specified Discord channel about the price drop.
 
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
